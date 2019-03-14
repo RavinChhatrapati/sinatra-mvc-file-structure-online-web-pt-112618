@@ -5,12 +5,10 @@ def initialize(name, age, breed)
   @name = name
   @age = age
   @breed = breed
-def breed
-  @breed
+  @@all << self
 end
-def age
-  @age
-end
+  def self.all
+  @@all
 
 end
 end
